@@ -1,0 +1,1 @@
+import{_ as a}from"./_plugin-vue_export-helper.a1a6add7.js";import{o as r,l as e,K as s,a9 as t}from"./entry.95181df8.js";const o=a({},[["render",function(a,o){return r(),e("div",null,[s(" 一些共享的布局内容： "),t(a.$slots,"default")])}]]);export{o as default};

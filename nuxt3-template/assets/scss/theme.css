@@ -1,0 +1,102 @@
+html {
+  --module-bg: rgba(255, 255, 255, 0.6);
+  --module-bg-lighter: rgba(255, 255, 255, 0.8);
+  --icon-color: rgba(68, 68, 68, 1);
+  --icon-hover-color: rgba(68, 68, 68, 0.8);
+  --el-text-color-primary: #303133;
+  --motion-blur: url(assets/images/motion-blur.svg#horizontal);
+}
+
+html.dark {
+  --module-bg: rgba(68, 68, 68, 0.6);
+  --module-bg-lighter: rgba(68, 68, 68, 0.8);
+  --icon-color: rgba(255, 255, 255, 1);
+  --icon-hover-color: rgba(255, 255, 255, 0.8);
+
+  --tw-text-opacity: #e5eaf3;
+}
+.md-dark,
+.md {
+  --md-bk-color: transparent !important;
+}
+
+html.dark #background .image {
+  opacity: 0.2;
+}
+html.dark .text-gray-500 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.6s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0.6;
+  filter: blur(5px);
+}
+
+body {
+  margin: 0;
+  background: var(--el-bg-color-page);
+}
+
+ul,
+ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+p,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box-bg-color {
+  background-color: var(--module-bg);
+}
+.box-bg-color-bright {
+  background-color: var(--el-fill-color);
+}
+.text-color {
+  color: var(--el-menu-text-color);
+}
+.text-color-info-7 {
+  color: var(--el-color-info-light-7);
+}
+.text-color-regular {
+  color: var(--el-text-color-regular);
+}
+
+.text-color-secondary {
+  color: var(--el-text-color-secondary);
+}
+
+.module-bg {
+  background-color: var(--module-bg);
+}
+.overlay-bg {
+  background-color: var(--el-overlay-color-light);
+}
+.info-bg {
+  background-color: var(--icon-color);
+}
+.module-bg:hover {
+  background-color: var(--module-bg-lighter);
+}
+.skew-20 {
+  transform: skew(-20deg);
+}
+
+.omit3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}

@@ -1,0 +1,6 @@
+const a = ".dropdown[data-v-255177ca]{position:relative}.dropdown>div[data-v-255177ca]{align-items:center;display:flex;justify-content:center}.dropdown:hover .dropdown-item[data-v-255177ca]{display:block}.dropdown[data-v-255177ca]:hover{height:100%}.dropdown-item[data-v-255177ca]{color:var(--el-primary);display:none;left:0;position:absolute;top:100%}.dropdown-item span[data-v-255177ca]{padding:5px}.dropdown-item[data-v-255177ca]{--un-bg-opacity:1;background-color:rgba(255,255,255,var(--un-bg-opacity));--un-bg-opacity:.3;--un-shadow:var(--un-shadow-inset) 0 10px 15px -3px var(--un-shadow-color, rgba(0,0,0,.1)),var(--un-shadow-inset) 0 4px 6px -4px var(--un-shadow-color, rgba(0,0,0,.1));box-shadow:var(--un-ring-offset-shadow),var(--un-ring-shadow),var(--un-shadow)}.dark .dropdown-item[data-v-255177ca]{--un-bg-opacity:1;background-color:rgba(17,24,39,var(--un-bg-opacity))}.dropdown-item li[data-v-255177ca]{margin-left:.2rem;padding:.3rem;transition:all 1s;white-space:nowrap}.dropdown-item li[data-v-255177ca]:hover{border-radius:5px;color:var(--blue-2)}@keyframes item-ani-255177ca{0%{height:0}to{height:100%}}\n";
+
+const DropdownStyles_1d04e1ad = [a];
+
+export { DropdownStyles_1d04e1ad as default };
+//# sourceMappingURL=Dropdown-styles.1d04e1ad.mjs.map

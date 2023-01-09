@@ -1,0 +1,1 @@
+import{j as t}from"./entry.95181df8.js";function e(){return{dateToStr:t((()=>t=>new Date(t).toLocaleString().split(" ")[0])),dateToStr1:t((()=>t=>new Date(t).toLocaleString().split(" ")[0]+" "+new Date(t).toLocaleString().split(" ")[1]))}}export{e as u};

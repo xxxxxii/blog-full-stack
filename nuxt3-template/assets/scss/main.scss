@@ -1,0 +1,62 @@
+@use "element-plus/dist/index.css";
+@use "element-plus/theme-chalk/dark/css-vars.css";
+// @use "./theme.css";
+@import "https://unpkg.com/open-props";
+// @import "https://unpkg.com/open-props/normalize.min.css";
+@import "https://unpkg.com/open-props/buttons.min.css";
+
+:root{
+    font-family: var(--font-mono);
+}
+html,body{
+    // overflow-x: hidden;
+    // scroll-behavior: smooth;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+html{
+    scroll-behavior: smooth;    
+}
+a{
+    color: white
+}
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.warpper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+::-webkit-scrollbar {/*滚动条整体样式*/
+    width: 8px;     /*高宽分别对应横竖滚动条的尺寸*/
+    height: 1px;
+}
+::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+        border-radius: 10px;
+background-color: rgba(50, 98, 255,.5);
+background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent);
+    }
+::-webkit-scrollbar-track {/*滚动条里面轨道*/
+        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0);
+        /*border-radius: 10px;*/
+        background: #EDEDED;
+    }
+
+.t-elli{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+
+.top-bar {
+    z-index: 1000;
+    @apply h-[60px] w-full left-0 right-0 top-0 flex flex-row items-center justify-center bg-opacity-0  bg-white dark:bg-dark-500 shadow-lg;
+}
+

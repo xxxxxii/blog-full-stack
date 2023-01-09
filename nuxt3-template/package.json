@@ -1,0 +1,41 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build --mode production",
+    "dev": "nuxt dev --mode dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.29.2",
+    "@iconify-json/carbon": "^1.1.9",
+    "@iconify-json/twemoji": "^1.1.5",
+    "@nuxtjs/color-mode": "^3.1.8",
+    "@types/qs": "^6.9.7",
+    "@unocss/nuxt": "^0.46.2",
+    "@vueuse/nuxt": "^9.4.0",
+    "eslint": "^8.26.0",
+    "nuxt": "3.0.0",
+    "nuxt-icon": "^0.1.7",
+    "pinia-plugin-persistedstate": "^3.0.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.0.10",
+    "@nuxtjs/axios": "^5.13.6",
+    "@pinia/nuxt": "^0.4.6",
+    "@vueuse/core": "^9.5.0",
+    "axios": "^1.2.0",
+    "element-plus": "^2.2.21",
+    "i": "^0.3.7",
+    "md-editor-v3": "^2.4.2",
+    "npm": "^9.1.1",
+    "ohash": "^0.1.5",
+    "pinia": "^2.0.28",
+    "postcss": "^8.4.19",
+    "postcss-pxtorem": "^6.0.0",
+    "qs": "^6.11.0",
+    "sass": "^1.56.1"
+  }
+}

@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper.a1a6add7.js";import{o as r,l as o}from"./entry.95181df8.js";const s={class:"min-h-screen"};const t=e({},[["render",function(e,t){return r(),o("div",s,"about me")}]]);export{t as default};
